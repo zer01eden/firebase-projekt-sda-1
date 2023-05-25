@@ -1,17 +1,19 @@
 {
-  "name": "firebase-projekt-sda-1",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "firebase": "^9.22.0"
-  },
-  "devDependencies": {
-    "parcel": "^2.8.3"
-  }
+	"name": "firebase-projekt-sda-1",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "parcel *.html",
+		"build": "parcel build *.html --public-url /firebase-projekt-sda-1/",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"firebase": "^9.22.0"
+	},
+	"devDependencies": {
+		"parcel": "^2.8.3"
+	}
 }
