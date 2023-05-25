@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "firebase": "^9.22.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
   }
 }
