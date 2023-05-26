@@ -2,4 +2,6 @@ node_modules
 .parcel-cache
 dist
 firebaseConfig.js
+.gitignore.swp
+
 
